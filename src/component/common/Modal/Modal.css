@@ -1,0 +1,26 @@
+.CustomStyledModal {
+    display: none;
+    position: fixed;
+    width: 40%;
+    background-color: #FFF;
+    min-height: 40px;
+    overflow: auto;
+    text-align: left;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Modal {
+    display: none;
+    position: fixed;
+    width: 40%;
+    background-color: #FFF;
+    text-align: left;
+    z-index: 2;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

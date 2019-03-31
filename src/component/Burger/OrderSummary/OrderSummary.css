@@ -1,0 +1,78 @@
+.os-title {
+    background-color: #584D49;
+    padding: 15px;
+    font-family: 'Merriweather', serif;
+    color: #D8D0CD;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.os-body {
+    font-family: 'Merriweather', serif;
+    background-color: #EEEAE7;
+    padding: 30px 30px 0;
+    color: #7B716F;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+ul li {
+    border-bottom: 1px solid #E2DBD3;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .ingredient-detail {
+    color: #584D49;
+}
+
+li .ingredient-type {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+li .ingredient-qty {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 0;
+    letter-spacing: 0.5px;
+}
+li .ingredient-qty span {
+    color: #7B716F;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+li .ingredient-price {
+    margin-right: 26px;
+    color: #584D49;
+    font-weight: bold;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #D9D2C8;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #584D49;
+    letter-spacing: 0.5px;
+}
+
+.price-text {
+    text-transform: uppercase;
+}
+
+.amount {
+    margin-right: 26px;
+}
+

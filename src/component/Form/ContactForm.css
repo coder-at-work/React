@@ -1,0 +1,36 @@
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+
+.error-text-area {
+    background-color: red;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.form-title {
+    background-color: #584D49;
+    padding: 15px;
+    font-family: 'Merriweather', serif;
+    color: #D8D0CD;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}

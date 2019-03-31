@@ -1,0 +1,40 @@
+header {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    color: #E7E7E7;
+    background: #767EBC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: bold;
+}
+
+.left-section {
+    display: flex;  
+}
+
+.left-section a {
+    text-decoration: none;
+    color: #E7E7E7;
+}
+
+.right-section {
+    display: flex;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    cursor: pointer;
+    border-bottom: 2px solid orange;
+    background-color: #445fab;
+}

@@ -1,0 +1,26 @@
+.order-sub-container {
+    display: flex;
+    margin: 10px 0;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'ZCOOL XiaoWei', 'serif';
+    border: 1px solid #100c0d9c;
+    color: #100c0d9c;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+.col-1 {
+    width: 40%;
+}
+.col-2 {
+    width: 30%;   
+}
+.col-3 {
+    width: 10%;    
+}
+.col-4 {
+    width: 20%;    
+}

@@ -1,0 +1,43 @@
+.CheckoutContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.CheckoutStyles {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.BtnContainerStyle {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+.CheckoutPage {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.BurgerStyle {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.HocStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}

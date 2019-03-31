@@ -1,0 +1,29 @@
+.ContainerStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(#bc581e, #e27b36); */
+    background-color: #767EBC;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.totalCostContainer{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Indie Flower', 'cursive';
+}
+
+.IngContainerStyle {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.labelStyle {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: bold;
+    font-size: 20px;
+}  
+  
