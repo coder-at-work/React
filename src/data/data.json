@@ -1,0 +1,39 @@
+{
+  "/root": {
+    "path": "/root",
+    "type": "folder",
+    "isRoot": true,
+    "children": ["/root/first", "/root/second"]
+  },
+  "/root/first": {
+    "path": "/root/first",
+    "type": "folder",
+    "children": ["/root/first/readme.md"]
+  },
+  "/root/first/readme.md": {
+    "path": "/root/first/readme.md",
+    "type": "file",
+    "content": "Thanks for stopping by",
+    "children": []
+  },
+  "/root/second": {
+    "path": "/root/second",
+    "type": "folder",
+    "children": ["/root/second/projects", "/root/second/vblogs"]
+  },
+  "/root/second/projects": {
+    "path": "/root/second/projects",
+    "type": "folder",
+    "children": ["/root/second/projects/treeview"]
+  },
+  "/root/second/projects/treeview": {
+    "path": "/root/second/projects/treeview",
+    "type": "folder",
+    "children": []
+  },
+  "/root/second/vblogs": {
+    "path": "/root/second/vblogs",
+    "type": "folder",
+    "children": []
+  }
+}
